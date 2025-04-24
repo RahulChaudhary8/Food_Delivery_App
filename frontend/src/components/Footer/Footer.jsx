@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { assets } from "../../assets/assets";
 
+
 const Footer = () => {
   return (
     <div className="footer" id="footer">
@@ -23,10 +24,10 @@ const Footer = () => {
               <img src={assets.github_icon} alt="GitHub" />
             </a>
 
-            <a href="https://yourportfolio.com"
+            <a href="https://650ac10f18794a302356ccc6--loquacious-travesseiro-2cd842.netlify.app/"
               target="_blank"
               rel="noopener noreferrer">
-              <img src={assets.portfolio_icon} alt="Portfolio" />
+              <img src={assets.port} alt="Portfolio" />
             </a>
 
           </div>
